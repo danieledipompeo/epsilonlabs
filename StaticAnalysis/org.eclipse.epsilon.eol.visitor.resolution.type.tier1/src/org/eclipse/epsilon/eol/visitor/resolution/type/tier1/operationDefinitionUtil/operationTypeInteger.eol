@@ -1,3 +1,0 @@
-operation Integer to(other: Integer) : Sequence(Integer) {} //done ---------------------------
-
-operation Integer iota(end: Integer, step: Integer) : Sequence(Integer) {} //done ---------------------------

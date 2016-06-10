@@ -1,7 +1,0 @@
-context lib!Book {
-	constraint NoWriter {
-		check : self.author.isDefined()
-		message : self.`title` + " must have an author !"
-	}
-}
-

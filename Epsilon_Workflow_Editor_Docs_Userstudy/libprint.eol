@@ -1,8 +1,0 @@
-"Printing books in the library...".println();
-
-for(b in Book.allInstances()) {
-    ("Book Title : " + b.title).println();
-}
-
-
-	

@@ -1,5 +1,0 @@
-var evlTasks = t_epsilon\.evl.all;
-
-var target = evlTasks.random();
-
-target.a_name.println();

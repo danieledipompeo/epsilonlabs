@@ -1,9 +1,0 @@
-[%import "util.eol";%]
-package [%=e.eContainer().name%];
-
-public enum [%=e.name%] {
-[%for (l in e.eLiterals) { %]
-	[%=l.name%][%if (hasMore){%],[%}%]
-	
-[%}%]
-}

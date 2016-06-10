@@ -1,8 +1,0 @@
-var a = 1; //A.all.first;//1.2;//true;//1;//"s"; //new Native("java.lang.String");
-var b = A.all.first;
-
-var c = a = b;
-
-c.type().println();
-
-c.println();

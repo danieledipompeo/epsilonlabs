@@ -1,3 +1,0 @@
-for (p in ref!PublicationEntry.all().select(a | a.type.toLowerCase() == "article")) {
-	p.type.println();
-}

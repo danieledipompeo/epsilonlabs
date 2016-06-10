@@ -1,3 +1,0 @@
-for (row in csv!Row.all()) {
-	row.println();
-}
