@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Epsilon Service Category"
+            id="org.epsilon.examples.standalone.service.commands.category">
+      </category>
+      <command
+            name="Epsilon ETL Command"
+            categoryId="org.epsilon.examples.standalone.service.commands.category"
+            id="org.epsilon.examples.standalone.service.commands.sampleCommand">
+      </command>
+      <command
+            categoryId="org.epsilon.examples.standalone.service.commands.category"
+            id="org.eclipse.epsilon.examples.standalone.service.command.egl"
+            name="Epstilon EGL Command">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="org.epsilon.examples.standalone.service.commands.sampleCommand"
+            class="org.eclipse.epsilon.examples.standalone.service.handlers.TransformHandler">
+      </handler>
+      <handler
+            class="org.eclipse.epsilon.examples.standalone.service.handlers.EglHandler"
+            commandId="org.eclipse.epsilon.examples.standalone.service.command.egl">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="Epsilon"
+               mnemonic="M"
+               id="org.epsilon.examples.standalone.service.menus.sampleMenu">
+            <command
+                  commandId="org.epsilon.examples.standalone.service.commands.sampleCommand"
+                  id="org.epsilon.examples.standalone.service.menus.sampleCommand">
+            </command>
+            <command
+                  commandId="org.eclipse.epsilon.examples.standalone.service.command.egl"
+                  id="org.eclipse.epsilon.examples.standalone.service.command.egl"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+
+</plugin>

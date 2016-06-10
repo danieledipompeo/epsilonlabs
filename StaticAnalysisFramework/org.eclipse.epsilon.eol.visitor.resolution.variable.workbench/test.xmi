@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ASCII"?>
+<eol:EOLProgram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:eol="http://www.eclipse.org/epsilon/eol">
+  <region container="/">
+    <start container="//@region" line="1"/>
+    <end container="//@region" line="3" column="14"/>
+  </region>
+  <block container="/">
+    <region container="//@block">
+      <start container="//@block/@region" line="1"/>
+      <end container="//@block/@region" line="3" column="14"/>
+    </region>
+    <statements xsi:type="eol:AssignmentStatement" container="//@block">
+      <region container="//@block/@statements.0">
+        <start container="//@block/@statements.0/@region" line="1"/>
+        <end container="//@block/@statements.0/@region" line="1" column="19"/>
+      </region>
+      <lhs xsi:type="eol:VariableDeclarationExpression" container="//@block/@statements.0" references="//@block/@statements.2/@rhs/@lhs">
+        <region container="//@block/@statements.0/@lhs">
+          <start container="//@block/@statements.0/@lhs/@region" line="1"/>
+          <end container="//@block/@statements.0/@lhs/@region" line="1" column="14"/>
+        </region>
+        <resolvedType xsi:type="eol:IntegerType" container="//@block/@statements.0/@lhs">
+          <region container="//@block/@statements.0/@lhs/@resolvedType">
+            <start container="//@block/@statements.0/@lhs/@resolvedType/@region" line="1" column="7"/>
+            <end container="//@block/@statements.0/@lhs/@resolvedType/@region" line="1" column="14"/>
+          </region>
+        </resolvedType>
+        <name container="//@block/@statements.0/@lhs" name="a">
+          <region container="//@block/@statements.0/@lhs/@name">
+            <start container="//@block/@statements.0/@lhs/@name/@region" line="1" column="4"/>
+            <end container="//@block/@statements.0/@lhs/@name/@region" line="1" column="5"/>
+          </region>
+        </name>
+      </lhs>
+      <rhs xsi:type="eol:IntegerExpression" container="//@block/@statements.0" value="1">
+        <region container="//@block/@statements.0/@rhs">
+          <start container="//@block/@statements.0/@rhs/@region" line="1" column="17"/>
+          <end container="//@block/@statements.0/@rhs/@region" line="1" column="18"/>
+        </region>
+        <resolvedType xsi:type="eol:IntegerType" container="//@block/@statements.0/@rhs">
+          <region container="//@block/@statements.0/@rhs/@resolvedType">
+            <start container="//@block/@statements.0/@rhs/@resolvedType/@region" line="1" column="17"/>
+            <end container="//@block/@statements.0/@rhs/@resolvedType/@region" line="1" column="18"/>
+          </region>
+        </resolvedType>
+      </rhs>
+    </statements>
+    <statements xsi:type="eol:AssignmentStatement" container="//@block">
+      <region container="//@block/@statements.1">
+        <start container="//@block/@statements.1/@region" line="2"/>
+        <end container="//@block/@statements.1/@region" line="2" column="19"/>
+      </region>
+      <lhs xsi:type="eol:VariableDeclarationExpression" container="//@block/@statements.1" references="//@block/@statements.2/@rhs/@rhs">
+        <region container="//@block/@statements.1/@lhs">
+          <start container="//@block/@statements.1/@lhs/@region" line="2"/>
+          <end container="//@block/@statements.1/@lhs/@region" line="2" column="14"/>
+        </region>
+        <resolvedType xsi:type="eol:IntegerType" container="//@block/@statements.1/@lhs">
+          <region container="//@block/@statements.1/@lhs/@resolvedType">
+            <start container="//@block/@statements.1/@lhs/@resolvedType/@region" line="2" column="7"/>
+            <end container="//@block/@statements.1/@lhs/@resolvedType/@region" line="2" column="14"/>
+          </region>
+        </resolvedType>
+        <name container="//@block/@statements.1/@lhs" name="b">
+          <region container="//@block/@statements.1/@lhs/@name">
+            <start container="//@block/@statements.1/@lhs/@name/@region" line="2" column="4"/>
+            <end container="//@block/@statements.1/@lhs/@name/@region" line="2" column="5"/>
+          </region>
+        </name>
+      </lhs>
+      <rhs xsi:type="eol:IntegerExpression" container="//@block/@statements.1" value="2">
+        <region container="//@block/@statements.1/@rhs">
+          <start container="//@block/@statements.1/@rhs/@region" line="2" column="17"/>
+          <end container="//@block/@statements.1/@rhs/@region" line="2" column="18"/>
+        </region>
+        <resolvedType xsi:type="eol:IntegerType" container="//@block/@statements.1/@rhs">
+          <region container="//@block/@statements.1/@rhs/@resolvedType">
+            <start container="//@block/@statements.1/@rhs/@resolvedType/@region" line="2" column="17"/>
+            <end container="//@block/@statements.1/@rhs/@resolvedType/@region" line="2" column="18"/>
+          </region>
+        </resolvedType>
+      </rhs>
+    </statements>
+    <statements xsi:type="eol:AssignmentStatement" container="//@block">
+      <region container="//@block/@statements.2">
+        <start container="//@block/@statements.2/@region" line="3"/>
+        <end container="//@block/@statements.2/@region" line="3" column="14"/>
+      </region>
+      <lhs xsi:type="eol:VariableDeclarationExpression" container="//@block/@statements.2">
+        <region container="//@block/@statements.2/@lhs">
+          <start container="//@block/@statements.2/@lhs/@region" line="3"/>
+          <end container="//@block/@statements.2/@lhs/@region" line="3" column="5"/>
+        </region>
+        <resolvedType xsi:type="eol:AnyType" container="//@block/@statements.2/@lhs">
+          <region container="//@block/@statements.2/@lhs/@resolvedType">
+            <start container="//@block/@statements.2/@lhs/@resolvedType/@region" line="3"/>
+            <end container="//@block/@statements.2/@lhs/@resolvedType/@region" line="3" column="5"/>
+          </region>
+        </resolvedType>
+        <name container="//@block/@statements.2/@lhs" name="c">
+          <region container="//@block/@statements.2/@lhs/@name">
+            <start container="//@block/@statements.2/@lhs/@name/@region" line="3" column="4"/>
+            <end container="//@block/@statements.2/@lhs/@name/@region" line="3" column="5"/>
+          </region>
+        </name>
+      </lhs>
+      <rhs xsi:type="eol:PlusOperatorExpression" container="//@block/@statements.2">
+        <region container="//@block/@statements.2/@rhs">
+          <start container="//@block/@statements.2/@rhs/@region" line="3" column="8"/>
+          <end container="//@block/@statements.2/@rhs/@region" line="3" column="13"/>
+        </region>
+        <lhs xsi:type="eol:NameExpression" container="//@block/@statements.2/@rhs" name="a">
+          <region container="//@block/@statements.2/@rhs/@lhs">
+            <start container="//@block/@statements.2/@rhs/@lhs/@region" line="3" column="8"/>
+            <end container="//@block/@statements.2/@rhs/@lhs/@region" line="3" column="9"/>
+          </region>
+        </lhs>
+        <rhs xsi:type="eol:NameExpression" container="//@block/@statements.2/@rhs" name="b">
+          <region container="//@block/@statements.2/@rhs/@rhs">
+            <start container="//@block/@statements.2/@rhs/@rhs/@region" line="3" column="12"/>
+            <end container="//@block/@statements.2/@rhs/@rhs/@region" line="3" column="13"/>
+          </region>
+        </rhs>
+      </rhs>
+    </statements>
+  </block>
+</eol:EOLProgram>

@@ -1,0 +1,18 @@
+@_sysParam modelOp
+operation _ModelElementType_ allOfType() : Sequence(SelfType) {} //done
+
+@_sysParam modelOp
+operation _ModelElementType_ allOfKind() : Sequence(SelfType) {} //done
+
+@_sysParam modelOp
+operation _ModelElementType_ allInstances() : Sequence(SelfType) {} //done
+
+@_sysParam modelOp
+operation _ModelElementType_ all() : Sequence(SelfType) {} //done
+
+@_sysParam modelOp
+operation _ModelElementType_ isInstantiable() : Boolean {} //done
+
+@_sysParam modelOp
+operation _ModelElementType_ createInstance() : SelfType {} //done
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<university:University xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:university="http://university/1.0" name="University of York">
+  <departments name="Computer Science">
+    <modules name="MDSD">
+      <modulePages title="Model Driven Software Development"/>
+    </modules>
+    <modules name="MFCS">
+      <modulePages title="Mathematical Foundations of Computer Science"/>
+    </modules>
+    <members xsi:type="university:Student" first_name="Ran" last_name="Wei" modules="//@departments.0/@modules.0"/>
+    <members xsi:type="university:Student" first_name="Kostas" last_name="Barmpis" modules="//@departments.0/@modules.1"/>
+    <members xsi:type="university:Staff" first_name="Dimitris" last_name="Kolovos">
+      <departmentalPage title="Dimitris Kolovos"/>
+    </members>
+  </departments>
+</university:University>
